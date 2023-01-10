@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.page {
+    font-family: "Roboto";
+    padding: 20px;
+}
+
+.info {
+    color: #323f4b;
+}
+
+.covid-test-card {
+    background-color: #0967d219;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.covid-img {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+}
+
+.sub-info {
+    color: #707070;
+}
+
+.s-card {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bg-green {
+    background-color: #3ebd93;;
+}
+
+.bg-pink {
+    background-color: #e668a7;
+}
+
+.bg-violet {
+    background-color: #a368fc;
+}
+
+.s-text {
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.videos-card {
+    background-color: #e12d3919;
+    border-radius: 10px;
+    padding: 10px;
+
+}

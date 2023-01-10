@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-color: #875fc0;
+    padding-bottom: 20px;
+}
+
+.score {
+    color: #ffffff;
+}
+
+.q-card {
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.question {
+    color: #1f2933;
+}
+
+.desc {
+    color: #323f4b;
+}
+
+.q-img {
+    width: 80vw;
+}
+
+.options-card {
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.option {
+    color: #323f4b;
+    border-style: solid;
+    border-color: #323f4b;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.correct {
+    color: #ffffff;
+    background-color: blue;
+}
+
+.s-button {
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #fbaf00;
+    margin: 5px;
+    border-radius: 10px;
+    border-style: none;
+    width: 100px;
+}

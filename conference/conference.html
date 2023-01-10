@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Page</title>
+    <link href="./conference.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="conference-page" id="conferencePage">
+        <img class="con-img" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" alt="conference image">
+        <h1 class="head">The Things Conference</h1>
+        <p class="desc">Redefing the future of IoT with LoRaWAN</p>
+        <button class="btn btn-primary" onclick="show_details_page()">Know more</button>
+    </div>
+
+    <div class="conference-details" id="conferenceDetails">
+
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/vKJ6nXE_6Hc" title="YouTube video"></iframe>
+        </div>
+
+        <h1 class="head">The Things Conference</h1>
+        <p class="desc">Join Asia's Largest Conference on LoRaWAN</p>
+
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="m-2">
+                    <h1 class="head">1400+</h1>
+                    <p class="desc">Attendees</p>
+                </div>
+
+                <div class="m-2">
+                    <h1 class="head">100+</h1>
+                    <p class="desc">Workshops</p>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row justify-content-center">
+                <div class="m-2">
+                    <h1 class="head">120+</h1>
+                    <p class="desc">Speakers</p>
+                </div>
+            
+                <div class="m-2">
+                    <h1 class="head">10+</h1>
+                    <p class="desc">Countries</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" onclick="show_main_page()">Back</button>
+    </div>
+
+
+    <script src="./conference.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
